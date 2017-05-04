@@ -1,0 +1,384 @@
+
+
+#contenido {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background: #02010a;
+}
+
+header {
+  background-color: #5b7989;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  animation: animacionrebote 2s;
+}
+
+#cabecera h1 {
+  font-family: Dancing Script, cursive;
+  float: left;
+  margin: 2px 20px;
+  padding: 1vh;
+  color: white;
+  -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+  filter:drop-shadow(2px 2px 2px #02010a);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+li {
+  float: right;
+  margin: 5px 5px;
+  padding: 15px 10px;
+  height: 100%;
+}
+
+li a {
+  font-family: Dancing Script, cursive;
+  color: white;
+}
+
+
+#central {
+  background-color: #82c3a6;
+}
+
+#central img {
+width: 90%;
+display: block;
+margin: 0 auto;
+padding: 15px;
+}
+
+.segunda {
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float:left;
+}
+
+.tercera {
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.paisajetitle {
+  margin: 0px 0px 10px 0px;
+  font-family: Dancing Script, cursive;
+  width: 100%;
+  text-align: center;
+}
+
+.paisajetitle a {
+  color: black;
+}
+
+.retratotitle {
+  margin: 0px 10px 10px 0px;
+  font-family: Dancing Script, cursive;
+  width: 100%;
+  text-align: center;
+}
+
+.retratotitle a {
+  color: black;
+}
+
+.fotouno img {
+  width: 90%;
+  border: 2px;
+  padding: 0px;
+  margin: 15px 15px 0px 25px;
+}
+
+.fotouno:hover {
+  animation: Animacionfotouno 1s;
+  -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+  filter:drop-shadow(2px 2px 2px #82c3a6);
+}
+
+.fotodos img {
+  width: 90%;
+  border: 2px;
+  padding: 0px;
+  margin: 15px 20px 0px 15px;
+}
+
+.fotodos:hover {
+  transform: translate(20px, -5px);
+  -webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+  filter:drop-shadow(2px 2px 2px #82c3a6);
+}
+
+@-webkit-keyframes Animacionfotouno{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
+
+
+.galeriaret {
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+}
+
+.fotoretuno img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.fotoretdos img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.fotorettres img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.fotoretcuatro img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+}
+
+.fotoretcinco img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+.fotoretseis img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.galeriapai {
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+}
+
+.fotopaiuno img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:blur(10px);
+  filter:blur(10px);
+}
+
+.fotopaidos img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.fotopaitres img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.fotopaicuatro img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+}
+
+.fotopaicinco img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+.fotopaiseis img {
+  width: 80%;
+  border: 2px;
+  padding: 5px;
+  margin: 24px;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+
+img {
+  -webkit-filter:drop-shadow(2px 2px 2px  #02010a);
+  filter:drop-shadow(2px 2px 2px  #02010a);
+}
+
+svg {
+float: left;
+}
+
+footer {
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.piedepagina {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-family: Dancing Script, cursive;
+}
+
+.contacto {
+  width: 25%;
+  border: 2px;
+  padding: 15px 30px;
+}
+
+.terminos {
+  width: 25%;
+  border: 2px;
+  padding: 15px 30px;
+}
+
+.redes {
+  width: 25%;
+  border: 2px;
+  padding: 15px 30px;
+}
+
+.derechos {
+  width: 25%;
+  border: 2px;
+  padding: 15px 30px;
+}
+
+@media (min-width:300px) and (max-width:900px) {
+    #contenido {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #cabecera h1 {
+      font-family: Dancing Script, cursive;
+      text-align: center;
+      color: white;
+      -webkit-filter:drop-shadow(2px 2px 2px #02010a);
+      filter:drop-shadow(2px 2px 2px #02010a);
+    }
+
+    header {
+      background-color: #5b7989;
+      width: 100%;
+      height: 150px;
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: 10vw;
+    }
+
+    li a {
+      font-family: Dancing Script, cursive;
+      color: white;
+      text-align: center;
+    }
+
+    #central img {
+    display: block;
+    }
+
+    .segunda {
+      background-color: #d5c75f;
+      border: 1px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .tercera {
+      background-color: #d5c75f;
+      border: 1px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .piedepagina {
+      display: flex;
+      flex-direction: column;
+      font-family: Dancing Script, cursive;
+    }
+
+    .galeriaret {
+      display: flex;
+      flex-direction: column;
+      font-family: Dancing Script, cursive;
+    }
+
+    .galeriapai {
+      display: flex;
+      flex-direction: column;
+      font-family: Dancing Script, cursive;
+    }
+}
+
+@-webkit-keyframes animacionrebote {
+0% {
+margin-top: 150%;
+}
+60% {
+margin-top: -5%;
+}
+100% {
+margin-top: 0%;
+}
+}
